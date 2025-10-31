@@ -1,0 +1,1 @@
+{"kind": "identity", "version": 1, "bias_long": 0.0, "bias_short": 0.0, "scale": 1.0, "beta": 0.1, "window": 1000, "state": {"ew_long_conf": 0.5, "ew_long_hit": 0.5, "ew_short_conf": 0.5, "ew_short_hit": 0.5, "n": 0}}

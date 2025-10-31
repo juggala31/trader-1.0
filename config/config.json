@@ -1,0 +1,24 @@
+{
+  "log_rotation": {
+    "enabled": true,
+    "max_size_mb": 50,
+    "max_age_days": 7,
+    "keep_recent": 5,
+    "extensions": [
+      "log",
+      "csv",
+      "txt",
+      "jsonl"
+    ],
+    "exclude": [
+      "trades.sqlite",
+      "*.db",
+      "*.sqlite",
+      "*.zip"
+    ],
+    "archive_zip": false,
+    "date_folder": true,
+    "utc_timestamps": false,
+    "auto_rotate_daily": true
+  }
+}

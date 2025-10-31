@@ -1,0 +1,16 @@
+[
+  "ema_fast",
+  "ema_slow",
+  "sma_fast",
+  "sma_slow",
+  "rsi",
+  "atr",
+  "atr_pctile",
+  "vol_rolling",
+  "ema_gap",
+  "sma_gap",
+  "adx",
+  "ret_1",
+  "ret_5",
+  "ret_15"
+]
