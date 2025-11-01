@@ -1,0 +1,30 @@
+﻿{
+    "min_confidence": 0.15,
+    "ensemble_voting_threshold": 0.6,
+    "max_positions": 3,
+    "risk_adjustment": true,
+    "model_weights": {
+        "xgboost": 1.0,
+        "lightgbm": 0.9,
+        "random_forest": 0.8
+    },
+    "feature_engineering": {
+        "technical_indicators": true,
+        "microstructure_features": true,
+        "volatility_analysis": true,
+        "price_action_patterns": true,
+        "temporal_features": true,
+        "symbol_specific": true
+    },
+    "training_parameters": {
+        "retrain_interval_hours": 24,
+        "minimum_training_samples": 1000,
+        "validation_split": 0.2
+    },
+    "risk_parameters": {
+        "max_daily_trades": 10,
+        "position_size_multiplier": 1.0,
+        "volatility_adjustment": true,
+        "correlation_penalty": true
+    }
+}

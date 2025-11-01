@@ -1,0 +1,29 @@
+﻿{
+    "feature_engineering":  {
+                                "temporal_patterns":  true,
+                                "microstructure":  true,
+                                "regime_detection":  true,
+                                "technical_indicators":  true
+                            },
+    "ensemble_voting_threshold":  0.6,
+    "min_confidence":  0.15,
+    "max_positions":  3,
+    "risk_adjustment":  true,
+    "models":  [
+                   {
+                       "weight":  1,
+                       "name":  "XGBoost",
+                       "enabled":  true
+                   },
+                   {
+                       "weight":  0.9,
+                       "name":  "LightGBM",
+                       "enabled":  true
+                   },
+                   {
+                       "weight":  0.8,
+                       "name":  "RandomForest",
+                       "enabled":  true
+                   }
+               ]
+}
