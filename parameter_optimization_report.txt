@@ -1,0 +1,1 @@
+FTMO AI Parameter Optimization Report\n==================================================\n\nUS30Z25.sim:\n  Accuracy: 0.516\n  Return: -91.39%\n  Sharpe: 1.028\n  Score: 0.046\n\nUS100Z25.sim:\n  Accuracy: 0.579\n  Return: -91.57%\n  Sharpe: 1.605\n  Score: 0.186\n\nXAUZ25.sim:\n  Accuracy: 0.621\n  Return: -94.85%\n  Sharpe: 0.918\n  Score: 0.053\n

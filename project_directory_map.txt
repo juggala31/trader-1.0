@@ -1,0 +1,359 @@
+﻿================================================================================
+TRADING PROJECT DIRECTORY MAP (VIRTUAL ENVS EXCLUDED)
+Generated: 2025-10-31 21:14:29
+Root Path: C:\EXOSATITRADERPY
+Excluded: venv, .venv, env, __pycache__, .pyc files
+================================================================================
+
+📂 CLEAN DIRECTORY STRUCTURE:
+├── 📁 config/
+│   ├── 📄 config.json (422 B)
+  ├── 📄 config.json (422 B)
+├── 📁 data/
+│   ├── 📄 __init__.py (9 B)
+│   ├── 📄 features.py (5.9 KB)
+│   ├── 📄 make_us30.py (946 B)
+│   ├── 📄 mt5_adapter.py (513 B)
+│   ├── 📄 simulator.py (525 B)
+│   ├── 📄 US30_1m.csv (1.2 MB)
+│   ├── 📄 US30_1m_live.csv (1 KB)
+  ├── 📄 __init__.py (9 B)
+  ├── 📄 features.py (5.9 KB)
+  ├── 📄 make_us30.py (946 B)
+  ├── 📄 mt5_adapter.py (513 B)
+  ├── 📄 simulator.py (525 B)
+  ├── 📄 US30_1m.csv (1.2 MB)
+  ├── 📄 US30_1m_live.csv (1 KB)
+├── 📁 models/
+│   ├── 📄 __init__.py (0 B)
+│   ├── 📄 xgb_trainer.py (11 KB)
+│   ├── 📄 xgboost_model.pkl (29 B)
+  ├── 📁 xgb/
+  │   ├── 📄 calibrator.json (217 B)
+    ├── 📁 xgb_20251029_034654/
+    │   ├── 📄 feature_columns.json (193 B)
+    │   ├── 📄 meta.json (2.1 KB)
+    │   ├── 📄 model.json (5.2 MB)
+      ├── 📄 feature_columns.json (193 B)
+      ├── 📄 meta.json (2.1 KB)
+      ├── 📄 model.json (5.2 MB)
+    ├── 📄 calibrator.json (217 B)
+  ├── 📄 __init__.py (0 B)
+  ├── 📄 xgb_trainer.py (11 KB)
+  ├── 📄 xgboost_model.pkl (29 B)
+├── 📁 scripts/
+│   ├── 📄 __init__.py (0 B)
+│   ├── 📄 Preset-L1.ps1 (388 B)
+│   ├── 📄 run_dashboard.py (60 B)
+  ├── 📄 __init__.py (0 B)
+  ├── 📄 Preset-L1.ps1 (388 B)
+  ├── 📄 run_dashboard.py (60 B)
+├── 📄 advanced_port_manager.py (3.1 KB)
+├── 📄 advanced_risk_protection.py (6.1 KB)
+├── 📄 automated_reporter.py (10 KB)
+├── 📄 challenge_start.py (2.2 KB)
+├── 📄 check_ftmo_complete.py (2.2 KB)
+├── 📄 check_integration.py (2.5 KB)
+├── 📄 check_phase2.py (1.8 KB)
+├── 📄 cleanup_preview.json (2.5 KB)
+├── 📄 comprehensive_test.py (2.4 KB)
+├── 📄 dir.txt (3.9 MB)
+├── 📄 DIRECTORY_ORGANIZATION.md (635 B)
+├── 📄 drawdown_protection.py (4.4 KB)
+├── 📄 enhanced_risk_manager.py (7.9 KB)
+├── 📄 final_check.py (1.7 KB)
+├── 📄 final_verify.py (1.8 KB)
+├── 📄 ftmo_challenge_logger.py (6.5 KB)
+├── 📄 ftmo_challenge_optimizer.py (6.9 KB)
+├── 📄 ftmo_challenge_ready.py (7.4 KB)
+├── 📄 ftmo_config.py (1.9 KB)
+├── 📄 ftmo_config_complete.py (1.9 KB)
+├── 📄 ftmo_final.py (1.8 KB)
+├── 📄 ftmo_final_start.py (2.1 KB)
+├── 📄 ftmo_gui.py (13.3 KB)
+├── 📄 ftmo_gui_enhanced.py (4.1 KB)
+├── 📄 ftmo_gui_start.py (1.4 KB)
+├── 📄 ftmo_integrated_system.py (7.8 KB)
+├── 📄 ftmo_launch.py (1.4 KB)
+├── 📄 ftmo_minimal.py (3.7 KB)
+├── 📄 ftmo_mt5_integration.py (10 KB)
+├── 📄 ftmo_phase2_system.py (5 KB)
+├── 📄 ftmo_phase3_system.py (4.9 KB)
+├── 📄 ftmo_rule_enforcer.py (5.5 KB)
+├── 📄 ftmo_simplified.py (4.5 KB)
+├── 📄 ftmo_start.py (2.4 KB)
+├── 📄 ftmo_tkinter_gui.py (11.6 KB)
+├── 📄 ftmo_trade.py (1.7 KB)
+├── 📄 ftmo_trading.log (155 B)
+├── 📄 ftmo_universal_gui.py (2.3 KB)
+├── 📄 live_deployment_manager.py (11.6 KB)
+├── 📄 maintain.ps1 (2.6 KB)
+├── 📄 model_loader.py (2.1 KB)
+├── 📄 performance_analytics.py (9.2 KB)
+├── 📄 performance_monitor.py (7.7 KB)
+├── 📄 performance_optimizer.py (6 KB)
+├── 📄 phase2_demo.py (6.4 KB)
+├── 📄 phase2_start.py (1.3 KB)
+├── 📄 phase3_start.py (2 KB)
+├── 📄 port_manager.py (2 KB)
+├── 📄 probability_calibrator.py (4 KB)
+├── 📄 project_directory_map.txt (867.3 KB)
+├── 📄 service_health_monitor.py (8.3 KB)
+├── 📄 simple_test.py (1.8 KB)
+├── 📄 start_ftmo.bat (592 B)
+├── 📄 start_gui.bat (85 B)
+├── 📄 start_trading.bat (857 B)
+├── 📄 start_trading.py (1.3 KB)
+├── 📄 strategy_orchestrator.py (4.6 KB)
+├── 📄 verify_phase1.py (984 B)
+├── 📄 working_start.py (1.3 KB)
+
+📄 advanced_port_manager.py
+   📊 Size: 3.1 KB | Lines: 10+ | Modified: 2025-10-31 20:01
+   💬 import psutil
+
+📄 advanced_risk_protection.py
+   📊 Size: 6.1 KB | Lines: 10+ | Modified: 2025-10-31 19:58
+   💬 import numpy as np
+
+📄 automated_reporter.py
+   📊 Size: 10 KB | Lines: 10+ | Modified: 2025-10-31 19:53
+   💬 import smtplib
+
+📄 challenge_start.py
+   📊 Size: 2.2 KB | Lines: 10+ | Modified: 2025-10-31 19:58
+   💬 # FTMO CHALLENGE FINAL STARTUP
+
+📄 check_ftmo_complete.py
+   📊 Size: 2.2 KB | Lines: 10+ | Modified: 2025-10-31 19:53
+   💬 # FTMO FINAL COMPLETION CHECK
+
+📄 check_integration.py
+   📊 Size: 2.5 KB | Lines: 10+ | Modified: 2025-10-31 19:28
+   💬 # FTMO Integration Completion Check
+
+📄 check_phase2.py
+   📊 Size: 1.8 KB | Lines: 10+ | Modified: 2025-10-31 19:46
+   💬 # FTMO Phase 2 Completion Check
+
+📄 comprehensive_test.py
+   📊 Size: 2.4 KB | Lines: 10+ | Modified: 2025-10-31 20:01
+   💬 # FTMO COMPREHENSIVE TEST - Final Verification
+
+📄 data\__init__.py
+   📊 Size: 0 KB | Lines: 1+ | Modified: 2025-10-31 18:24
+
+📄 data\features.py
+   📊 Size: 5.9 KB | Lines: 10+ | Modified: 2025-10-31 18:24
+   💬 # exosati_trader/data/features.py
+
+📄 data\make_us30.py
+   📊 Size: 0.9 KB | Lines: 10+ | Modified: 2025-10-31 18:24
+   💬 from __future__ import annotations
+
+📄 data\mt5_adapter.py
+   📊 Size: 0.5 KB | Lines: 10+ | Modified: 2025-10-31 18:24
+   💬 import logging
+
+📄 data\simulator.py
+   📊 Size: 0.5 KB | Lines: 10+ | Modified: 2025-10-31 18:24
+   💬 import logging, random
+
+📄 drawdown_protection.py
+   📊 Size: 4.4 KB | Lines: 10+ | Modified: 2025-10-31 19:44
+   💬 import numpy as np
+
+📄 enhanced_risk_manager.py
+   📊 Size: 7.9 KB | Lines: 10+ | Modified: 2025-10-31 19:44
+   💬 import numpy as np
+
+📄 final_check.py
+   📊 Size: 1.7 KB | Lines: 10+ | Modified: 2025-10-31 19:31
+   💬 # Final FTMO System Check
+
+📄 final_verify.py
+   📊 Size: 1.8 KB | Lines: 10+ | Modified: 2025-10-31 20:04
+   💬 # FTMO FINAL VERIFICATION - System Ready Check
+
+📄 ftmo_challenge_logger.py
+   📊 Size: 6.5 KB | Lines: 10+ | Modified: 2025-10-31 19:22
+   💬 # FTMO Challenge Compliance Logger
+
+📄 ftmo_challenge_optimizer.py
+   📊 Size: 6.9 KB | Lines: 10+ | Modified: 2025-10-31 19:58
+   💬 # FTMO Challenge-Specific Optimizations
+
+📄 ftmo_challenge_ready.py
+   📊 Size: 7.4 KB | Lines: 10+ | Modified: 2025-10-31 19:58
+   💬 # FTMO Challenge-Ready System - Final Optimized Version
+
+📄 ftmo_config.py
+   📊 Size: 1.9 KB | Lines: 10+ | Modified: 2025-10-31 19:22
+   💬 # FTMO Trading System Configuration
+
+📄 ftmo_config_complete.py
+   📊 Size: 1.9 KB | Lines: 10+ | Modified: 2025-10-31 19:40
+   💬 # FTMO Trading Configuration
+
+📄 ftmo_final.py
+   📊 Size: 1.8 KB | Lines: 10+ | Modified: 2025-10-31 20:01
+   💬 # FTMO FINAL WORKING STARTUP - No Port Conflicts
+
+📄 ftmo_final_start.py
+   📊 Size: 2.1 KB | Lines: 10+ | Modified: 2025-10-31 19:33
+   💬 # FTMO Final Startup - Handles missing model files gracefully
+
+📄 ftmo_gui.py
+   📊 Size: 13.3 KB | Lines: 10+ | Modified: 2025-10-31 20:11
+   💬 # FTMO GUI Dashboard - Real-time Trading Monitor
+
+📄 ftmo_gui_enhanced.py
+   📊 Size: 4.1 KB | Lines: 10+ | Modified: 2025-10-31 20:11
+   💬 # FTMO GUI-Enhanced Trading System
+
+📄 ftmo_gui_start.py
+   📊 Size: 1.4 KB | Lines: 10+ | Modified: 2025-10-31 20:11
+   💬 # FTMO GUI Startup - Integrated Dashboard
+
+📄 ftmo_integrated_system.py
+   📊 Size: 7.8 KB | Lines: 10+ | Modified: 2025-10-31 19:33
+   💬 # FTMO Trading System - Phase 1 Integration
+
+📄 ftmo_launch.py
+   📊 Size: 1.4 KB | Lines: 10+ | Modified: 2025-10-31 20:07
+   💬 # FTMO ULTIMATE LAUNCH - Guaranteed Startup
+
+📄 ftmo_minimal.py
+   📊 Size: 3.7 KB | Lines: 10+ | Modified: 2025-10-31 20:04
+   💬 # FTMO Minimal Working System - Bypasses Analytics Issues
+
+📄 ftmo_mt5_integration.py
+   📊 Size: 10 KB | Lines: 10+ | Modified: 2025-10-31 19:40
+   💬 # FTMO MetaTrader5 Integration Bridge
+
+📄 ftmo_phase2_system.py
+   📊 Size: 5 KB | Lines: 10+ | Modified: 2025-10-31 19:46
+   💬 # FTMO Phase 2 Integration - Enhanced Risk & Optimization
+
+📄 ftmo_phase3_system.py
+   📊 Size: 4.9 KB | Lines: 10+ | Modified: 2025-10-31 19:49
+   💬 # FTMO Phase 3 Integration - Live Deployment & Monitoring
+
+📄 ftmo_rule_enforcer.py
+   📊 Size: 5.5 KB | Lines: 10+ | Modified: 2025-10-31 19:46
+   💬 # FTMO Rule Enforcer - Automated Rule Compliance
+
+📄 ftmo_simplified.py
+   📊 Size: 4.5 KB | Lines: 10+ | Modified: 2025-10-31 20:01
+   💬 # FTMO Simplified Challenge System - No Port Conflicts
+
+📄 ftmo_start.py
+   📊 Size: 2.4 KB | Lines: 10+ | Modified: 2025-10-31 19:31
+   💬 # FTMO System Startup - Handles port conflicts and clean startup
+
+📄 ftmo_tkinter_gui.py
+   📊 Size: 11.6 KB | Lines: 10+ | Modified: 2025-10-31 20:17
+   💬 # FTMO Tkinter GUI Dashboard - No External Dependencies
+
+📄 ftmo_trade.py
+   📊 Size: 1.7 KB | Lines: 10+ | Modified: 2025-10-31 19:40
+   💬 # FTMO Main Trading Script - Complete Integration
+
+📄 ftmo_universal_gui.py
+   📊 Size: 2.3 KB | Lines: 10+ | Modified: 2025-10-31 20:17
+   💬 # FTMO Universal GUI Launcher - Tries PyQt5 first, falls back to tkinter
+
+📄 live_deployment_manager.py
+   📊 Size: 11.6 KB | Lines: 10+ | Modified: 2025-10-31 19:49
+   💬 import os
+
+📄 model_loader.py
+   📊 Size: 2.1 KB | Lines: 10+ | Modified: 2025-10-31 19:33
+   💬 import os
+
+📄 models\__init__.py
+   📊 Size: 0 KB | Lines: 0+ | Modified: 2025-10-31 18:24
+
+📄 models\xgb_trainer.py
+   📊 Size: 11 KB | Lines: 10+ | Modified: 2025-10-31 18:24
+   💬 # exosati_trader/models/xgb_trainer.py
+
+📄 performance_analytics.py
+   📊 Size: 9.2 KB | Lines: 10+ | Modified: 2025-10-31 20:04
+   💬 import pandas as pd
+
+📄 performance_monitor.py
+   📊 Size: 7.7 KB | Lines: 10+ | Modified: 2025-10-31 19:49
+   💬 import time
+
+📄 performance_optimizer.py
+   📊 Size: 6 KB | Lines: 10+ | Modified: 2025-10-31 19:44
+   💬 import numpy as np
+
+📄 phase2_demo.py
+   📊 Size: 6.4 KB | Lines: 10+ | Modified: 2025-10-31 19:46
+   💬 # FTMO Phase 2 Demo Trading - Simulated Environment
+
+📄 phase2_start.py
+   📊 Size: 1.3 KB | Lines: 10+ | Modified: 2025-10-31 19:44
+   💬 # FTMO Phase 2 Startup
+
+📄 phase3_start.py
+   📊 Size: 2 KB | Lines: 10+ | Modified: 2025-10-31 19:53
+   💬 # FTMO Phase 3 Simplified Startup
+
+📄 port_manager.py
+   📊 Size: 2 KB | Lines: 10+ | Modified: 2025-10-31 19:28
+   💬 # ZMQ Port Manager - Handle port conflicts for FTMO system
+
+📄 probability_calibrator.py
+   📊 Size: 4 KB | Lines: 10+ | Modified: 2025-10-31 19:22
+   💬 import numpy as np
+
+📄 scripts\__init__.py
+   📊 Size: 0 KB | Lines: 0+ | Modified: 2025-10-31 18:24
+
+📄 scripts\run_dashboard.py
+   📊 Size: 0.1 KB | Lines: 2+ | Modified: 2025-10-31 18:24
+   💬 from exosati_trader.gui.qt_dashboard import main
+
+📄 service_health_monitor.py
+   📊 Size: 8.3 KB | Lines: 10+ | Modified: 2025-10-31 19:22
+   💬 # Service Health Monitor for Trading System
+
+📄 simple_test.py
+   📊 Size: 1.8 KB | Lines: 10+ | Modified: 2025-10-31 19:35
+   💬 import time
+
+📄 start_trading.py
+   📊 Size: 1.3 KB | Lines: 10+ | Modified: 2025-10-31 19:31
+   💬 # Simple FTMO Startup - Minimal version to avoid encoding issues
+
+📄 strategy_orchestrator.py
+   📊 Size: 4.6 KB | Lines: 10+ | Modified: 2025-10-31 20:01
+   💬 import zmq
+
+📄 verify_phase1.py
+   📊 Size: 1 KB | Lines: 10+ | Modified: 2025-10-31 19:22
+   💬 import os
+
+📄 working_start.py
+   📊 Size: 1.3 KB | Lines: 10+ | Modified: 2025-10-31 19:35
+   💬 # FTMO Working Startup - Simple version
+💾 data\US30_1m.csv
+   📊 Size: 1259.8 KB | Modified: 2025-10-31 18:24
+💾 data\US30_1m_live.csv
+   📊 Size: 1 KB | Modified: 2025-10-31 18:24
+💾 models\xgboost_model.pkl
+   📊 Size: 0 KB | Modified: 2025-10-31 19:35
+
+📈 CLEAN PROJECT SUMMARY:
+   📁 Project Directories: 824
+   📄 Project Files: 7526
+   🐍 Python Files: 2409
+   ⚙️ Config Files: 14
+   💾 Data Files: 45
+
+================================================================================
+END OF CLEAN DIRECTORY MAP
+================================================================================
