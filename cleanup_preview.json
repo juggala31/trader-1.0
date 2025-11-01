@@ -1,0 +1,58 @@
+﻿{
+    "Timestamp":  {
+                      "value":  "\/Date(1761957862560)\/",
+                      "DisplayHint":  2,
+                      "DateTime":  "Friday, October 31, 2025 8:44:22 PM"
+                  },
+    "Directory":  "C:\\EXOSATITRADERPY",
+    "MovePlan":  {
+                     "backup/":  [
+                                     "*backup*",
+                                     "*old*",
+                                     "*.bak"
+                                 ],
+                     "core/strategies/":  [
+                                              "*strategy*",
+                                              "*orchestrator*",
+                                              "*probability*"
+                                          ],
+                     "data/":  [
+                                   "*.csv",
+                                   "*.json",
+                                   "models/"
+                               ],
+                     "scripts/":  [
+                                      "*.ps1",
+                                      "*.bat",
+                                      "*start*",
+                                      "*launch*"
+                                  ],
+                     "core/risk_management/":  [
+                                                   "*risk*",
+                                                   "*drawdown*",
+                                                   "*ftmo_rule*"
+                                               ],
+                     "core/utils/":  [
+                                         "*port_manager*",
+                                         "*analytics*",
+                                         "*loader*"
+                                     ],
+                     "reports/":  [
+                                      "*report*",
+                                      "*export*"
+                                  ],
+                     "logs/":  [
+                                   "*.log"
+                               ],
+                     "docs/":  [
+                                   "*.md",
+                                   "*.txt",
+                                   "*GUIDE*"
+                               ],
+                     "core/config/":  [
+                                          "*config*"
+                                      ]
+                 },
+    "FilesToCleanup":  1,
+    "FilesToMove":  0
+}

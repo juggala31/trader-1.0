@@ -1,0 +1,1 @@
+FTMO AI Trading System - Backtesting Report\n==================================================\nUS30Z25.sim: Accuracy=0.333, Return=-0.11%\nUS100Z25.sim: Accuracy=0.375, Return=-0.20%\nXAUZ25.sim: Accuracy=0.312, Return=-0.86%\n
