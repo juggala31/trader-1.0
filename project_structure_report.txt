@@ -1,0 +1,1722 @@
+﻿PYTHON PROJECT STRUCTURE ANALYSIS REPORT
+========================================
+Generated: 11/02/2025 10:41:18
+Project Path: .
+
+PROJECT FILE STRUCTURE
+======================
+C:\exosatitraderpy\advanced_backtesterpy
+  Size: 27.19 KB
+  Modified: 10/31/2025 21:57:44
+C:\exosatitraderpy\advanced_port_managerpy
+  Size: 3.07 KB
+  Modified: 10/31/2025 20:01:01
+C:\exosatitraderpy\advanced_risk_managementpy
+  Size: 21.31 KB
+  Modified: 10/31/2025 21:46:54
+C:\exosatitraderpy\advanced_risk_protectionpy
+  Size: 6.06 KB
+  Modified: 10/31/2025 19:58:26
+C:\exosatitraderpy\automated_reporterpy
+  Size: 10.02 KB
+  Modified: 10/31/2025 19:53:33
+C:\exosatitraderpy\backtesting_reporttxt
+  Size: 0.22 KB
+  Modified: 11/01/2025 00:15:48
+C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_guipy
+  Size: 13.32 KB
+  Modified: 10/31/2025 20:11:35
+C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_mt5_integrationpy
+  Size: 10.05 KB
+  Modified: 10/31/2025 19:40:18
+C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_tkinter_guipy
+  Size: 11.61 KB
+  Modified: 10/31/2025 20:17:17
+C:\exosatitraderpy\backup_ai_20251031_212252\models\__init__py
+  Size: 0 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb\calibratorjson
+  Size: 0.21 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb\xgb_20251029_034654\feature_columnsjson
+  Size: 0.19 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb\xgb_20251029_034654\metajson
+  Size: 2.1 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb\xgb_20251029_034654\modeljson
+  Size: 5371.8 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb_trainerpy
+  Size: 10.99 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\backup_ai_20251031_212252\models\xgboost_modelpkl
+  Size: 0.03 KB
+  Modified: 10/31/2025 19:35:42
+C:\exosatitraderpy\backup_ai_20251031_212252\start_tradingpy
+  Size: 1.31 KB
+  Modified: 10/31/2025 19:31:24
+C:\exosatitraderpy\challenge_startpy
+  Size: 2.17 KB
+  Modified: 10/31/2025 19:58:27
+C:\exosatitraderpy\check_ftmo_completepy
+  Size: 2.24 KB
+  Modified: 10/31/2025 19:53:33
+C:\exosatitraderpy\check_integrationpy
+  Size: 2.49 KB
+  Modified: 10/31/2025 19:28:39
+C:\exosatitraderpy\check_phase2py
+  Size: 1.81 KB
+  Modified: 10/31/2025 19:46:24
+C:\exosatitraderpy\cleanup_previewjson
+  Size: 2.45 KB
+  Modified: 10/31/2025 20:44:22
+C:\exosatitraderpy\comprehensive_analysis_results_20251101_200327txt
+  Size: 9.85 KB
+  Modified: 11/01/2025 20:03:27
+C:\exosatitraderpy\comprehensive_symbol_analyzer_finalpy
+  Size: 19.35 KB
+  Modified: 11/01/2025 19:56:23
+C:\exosatitraderpy\comprehensive_symbol_analyzerpy
+  Size: 18.66 KB
+  Modified: 11/01/2025 19:44:25
+C:\exosatitraderpy\comprehensive_testpy
+  Size: 2.36 KB
+  Modified: 10/31/2025 20:01:01
+C:\exosatitraderpy\config\configjson
+  Size: 0.41 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\__init__py
+  Size: 0.01 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\featurespy
+  Size: 5.9 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\make_us30py
+  Size: 0.92 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\mt5_adapterpy
+  Size: 0.5 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\simulatorpy
+  Size: 0.51 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\US30_1m_livecsv
+  Size: 1.03 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\data\US30_1mcsv
+  Size: 1259.79 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\deep_learning_analyzerpy
+  Size: 18.98 KB
+  Modified: 10/31/2025 21:55:18
+C:\exosatitraderpy\DIRECTORY_ORGANIZATIONmd
+  Size: 0.62 KB
+  Modified: 10/31/2025 20:35:35
+C:\exosatitraderpy\dirtxt
+  Size: 3972.63 KB
+  Modified: 10/31/2025 19:15:30
+C:\exosatitraderpy\drawdown_protectionpy
+  Size: 4.41 KB
+  Modified: 10/31/2025 19:44:23
+C:\exosatitraderpy\dynamic_timeframe_optimizerpy
+  Size: 19.38 KB
+  Modified: 11/01/2025 19:18:14
+C:\exosatitraderpy\enhanced_gui_integrationpy
+  Size: 2.59 KB
+  Modified: 10/31/2025 21:41:39
+C:\exosatitraderpy\enhanced_mt5_integrationpy
+  Size: 11.81 KB
+  Modified: 10/31/2025 21:49:08
+C:\exosatitraderpy\enhanced_risk_managerpy
+  Size: 7.93 KB
+  Modified: 10/31/2025 19:44:23
+C:\exosatitraderpy\enhanced_trading_dashboardpy
+  Size: 26.8 KB
+  Modified: 10/31/2025 23:32:19
+C:\exosatitraderpy\final_checkpy
+  Size: 1.65 KB
+  Modified: 10/31/2025 19:31:24
+C:\exosatitraderpy\final_verificationpy
+  Size: 7.31 KB
+  Modified: 11/01/2025 20:37:10
+C:\exosatitraderpy\final_verifypy
+  Size: 1.82 KB
+  Modified: 10/31/2025 20:04:45
+C:\exosatitraderpy\fixed_backtesterpy
+  Size: 18.75 KB
+  Modified: 10/31/2025 23:22:45
+C:\exosatitraderpy\fixed_dynamic_optimizerpy
+  Size: 17.21 KB
+  Modified: 11/01/2025 19:20:20
+C:\exosatitraderpy\fixed_optimization_results_20251101_192132txt
+  Size: 3.63 KB
+  Modified: 11/01/2025 19:21:32
+C:\exosatitraderpy\ftmo_challenge_loggerpy
+  Size: 6.47 KB
+  Modified: 10/31/2025 19:22:08
+C:\exosatitraderpy\ftmo_challenge_optimizerpy
+  Size: 6.91 KB
+  Modified: 10/31/2025 19:58:26
+C:\exosatitraderpy\ftmo_challenge_readypy
+  Size: 7.4 KB
+  Modified: 10/31/2025 19:58:27
+C:\exosatitraderpy\ftmo_config_completepy
+  Size: 1.93 KB
+  Modified: 10/31/2025 19:40:19
+C:\exosatitraderpy\ftmo_configpy
+  Size: 1.94 KB
+  Modified: 10/31/2025 19:22:08
+C:\exosatitraderpy\ftmo_final_startpy
+  Size: 2.09 KB
+  Modified: 10/31/2025 19:33:06
+C:\exosatitraderpy\ftmo_finalpy
+  Size: 1.77 KB
+  Modified: 10/31/2025 20:01:01
+C:\exosatitraderpy\ftmo_gui_enhancedpy
+  Size: 4.07 KB
+  Modified: 10/31/2025 20:11:35
+C:\exosatitraderpy\ftmo_gui_startpy
+  Size: 1.37 KB
+  Modified: 10/31/2025 20:11:35
+C:\exosatitraderpy\ftmo_guipy
+  Size: 13.32 KB
+  Modified: 10/31/2025 20:11:35
+C:\exosatitraderpy\ftmo_integrated_systempy
+  Size: 7.78 KB
+  Modified: 10/31/2025 19:33:06
+C:\exosatitraderpy\ftmo_launchpy
+  Size: 1.38 KB
+  Modified: 10/31/2025 20:07:12
+C:\exosatitraderpy\ftmo_minimalpy
+  Size: 3.75 KB
+  Modified: 10/31/2025 20:04:45
+C:\exosatitraderpy\ftmo_mt5_integrationpy
+  Size: 10.05 KB
+  Modified: 10/31/2025 19:40:18
+C:\exosatitraderpy\ftmo_phase2_systempy
+  Size: 4.98 KB
+  Modified: 10/31/2025 19:46:23
+C:\exosatitraderpy\ftmo_phase3_systempy
+  Size: 4.88 KB
+  Modified: 10/31/2025 19:49:40
+C:\exosatitraderpy\ftmo_project_upgraderpy
+  Size: 9.51 KB
+  Modified: 11/01/2025 20:27:06
+C:\exosatitraderpy\ftmo_rule_enforcerpy
+  Size: 5.51 KB
+  Modified: 10/31/2025 19:46:23
+C:\exosatitraderpy\ftmo_simplifiedpy
+  Size: 4.46 KB
+  Modified: 10/31/2025 20:01:01
+C:\exosatitraderpy\ftmo_startpy
+  Size: 2.4 KB
+  Modified: 10/31/2025 19:31:23
+C:\exosatitraderpy\ftmo_tkinter_gui_enhancedpy
+  Size: 0.46 KB
+  Modified: 10/31/2025 21:28:08
+C:\exosatitraderpy\ftmo_tkinter_guipy
+  Size: 11.61 KB
+  Modified: 10/31/2025 20:17:17
+C:\exosatitraderpy\ftmo_tradepy
+  Size: 1.68 KB
+  Modified: 10/31/2025 19:40:19
+C:\exosatitraderpy\ftmo_tradinglog
+  Size: 0.15 KB
+  Modified: 10/31/2025 19:40:42
+C:\exosatitraderpy\ftmo_universal_guipy
+  Size: 2.26 KB
+  Modified: 10/31/2025 20:17:17
+C:\exosatitraderpy\high_volume_optimization_reporttxt
+  Size: 0.43 KB
+  Modified: 11/01/2025 02:30:56
+C:\exosatitraderpy\high_volume_optimizerpy
+  Size: 26.34 KB
+  Modified: 10/31/2025 23:56:03
+C:\exosatitraderpy\improved_backtesterpy
+  Size: 16.22 KB
+  Modified: 10/31/2025 23:18:30
+C:\exosatitraderpy\integrate_complete_systempy
+  Size: 7.35 KB
+  Modified: 10/31/2025 22:13:51
+C:\exosatitraderpy\integrate_ensemblepy
+  Size: 0.27 KB
+  Modified: 10/31/2025 21:31:13
+C:\exosatitraderpy\integrate_professional_ensemblepy
+  Size: 1.78 KB
+  Modified: 10/31/2025 21:37:39
+C:\exosatitraderpy\live_deployment_managerpy
+  Size: 11.56 KB
+  Modified: 10/31/2025 19:49:39
+C:\exosatitraderpy\live_performance_optimizerpy
+  Size: 15.59 KB
+  Modified: 10/31/2025 21:51:36
+C:\exosatitraderpy\maintainps1
+  Size: 2.62 KB
+  Modified: 10/31/2025 20:35:35
+C:\exosatitraderpy\market_regime_detectorpy
+  Size: 9.84 KB
+  Modified: 10/31/2025 22:25:32
+C:\exosatitraderpy\model_loaderpy
+  Size: 2.8 KB
+  Modified: 10/31/2025 23:04:22
+C:\exosatitraderpy\models\__init__py
+  Size: 0 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\ensemble\advanced_featurespy
+  Size: 12.83 KB
+  Modified: 10/31/2025 21:35:33
+C:\exosatitraderpy\models\ensemble\ensemble_aipy
+  Size: 0.31 KB
+  Modified: 10/31/2025 21:31:06
+C:\exosatitraderpy\models\ensemble\ensemble_configjson
+  Size: 0.97 KB
+  Modified: 10/31/2025 21:22:58
+C:\exosatitraderpy\models\ensemble\ensemble_gui_integrationpy
+  Size: 12.66 KB
+  Modified: 10/31/2025 21:41:50
+C:\exosatitraderpy\models\ensemble\professional_configjson
+  Size: 0.8 KB
+  Modified: 10/31/2025 21:37:34
+C:\exosatitraderpy\models\ensemble\professional_ensemblepy
+  Size: 14.63 KB
+  Modified: 10/31/2025 21:36:53
+C:\exosatitraderpy\models\ensemble\simple_ensemblepy
+  Size: 1.48 KB
+  Modified: 10/31/2025 23:07:30
+C:\exosatitraderpy\models\xgb\calibratorjson
+  Size: 0.21 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\xgb\xgb_20251029_034654\feature_columnsjson
+  Size: 0.19 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\xgb\xgb_20251029_034654\metajson
+  Size: 2.1 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\xgb\xgb_20251029_034654\modeljson
+  Size: 5371.8 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\xgb_trainerpy
+  Size: 10.99 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\models\xgboost_modelpkl
+  Size: 0.03 KB
+  Modified: 10/31/2025 19:35:42
+C:\exosatitraderpy\multi_timeframe_backtesterpy
+  Size: 10.82 KB
+  Modified: 11/01/2025 19:05:07
+C:\exosatitraderpy\oanda_symbol_discovererpy
+  Size: 7.43 KB
+  Modified: 11/01/2025 19:47:09
+C:\exosatitraderpy\oanda_symbols_discovered_20251101_194712txt
+  Size: 0.45 KB
+  Modified: 11/01/2025 19:47:12
+C:\exosatitraderpy\optimization_backtesterpy
+  Size: 20.77 KB
+  Modified: 10/31/2025 23:44:30
+C:\exosatitraderpy\optimized_models\best_params_US100Z25simpkl
+  Size: 0.21 KB
+  Modified: 11/01/2025 01:51:11
+C:\exosatitraderpy\optimized_models\best_params_US30Z25simpkl
+  Size: 0.22 KB
+  Modified: 11/01/2025 01:03:58
+C:\exosatitraderpy\optimized_models\best_params_XAUZ25simpkl
+  Size: 0.22 KB
+  Modified: 11/01/2025 02:30:56
+C:\exosatitraderpy\optimized_rl_systempy
+  Size: 16.64 KB
+  Modified: 10/31/2025 22:39:56
+C:\exosatitraderpy\parameter_optimization_reporttxt
+  Size: 0.34 KB
+  Modified: 10/31/2025 23:53:01
+C:\exosatitraderpy\performance_analyticspy
+  Size: 9.22 KB
+  Modified: 10/31/2025 20:04:45
+C:\exosatitraderpy\performance_monitorpy
+  Size: 7.65 KB
+  Modified: 10/31/2025 19:49:39
+C:\exosatitraderpy\performance_optimizerpy
+  Size: 5.98 KB
+  Modified: 10/31/2025 19:44:24
+C:\exosatitraderpy\phase2_demopy
+  Size: 6.38 KB
+  Modified: 10/31/2025 19:46:24
+C:\exosatitraderpy\phase2_startpy
+  Size: 1.28 KB
+  Modified: 10/31/2025 19:44:24
+C:\exosatitraderpy\phase3_startpy
+  Size: 2.03 KB
+  Modified: 10/31/2025 19:53:33
+C:\exosatitraderpy\port_managerpy
+  Size: 2 KB
+  Modified: 10/31/2025 19:28:38
+C:\exosatitraderpy\probability_calibratorpy
+  Size: 4.01 KB
+  Modified: 10/31/2025 19:22:07
+C:\exosatitraderpy\project_cleanup_scriptps1
+  Size: 3.27 KB
+  Modified: 11/01/2025 20:11:07
+C:\exosatitraderpy\project_directory_maptxt
+  Size: 12.96 KB
+  Modified: 10/31/2025 21:18:17
+C:\exosatitraderpy\project_layouttxt
+  Size: 66.1 KB
+  Modified: 11/01/2025 18:34:11
+C:\exosatitraderpy\project_referencemd
+  Size: 147.3 KB
+  Modified: 11/01/2025 18:21:45
+C:\exosatitraderpy\quick_gui_testpy
+  Size: 0 KB
+  Modified: 11/01/2025 20:37:15
+C:\exosatitraderpy\quick_verifypy
+  Size: 1.03 KB
+  Modified: 10/31/2025 22:25:32
+C:\exosatitraderpy\real_time_mt5_integrationpy
+  Size: 14.98 KB
+  Modified: 10/31/2025 22:54:21
+C:\exosatitraderpy\real_time_trading_systempy
+  Size: 12.98 KB
+  Modified: 10/31/2025 22:54:21
+C:\exosatitraderpy\regime_analytics_dashboardpy
+  Size: 9.1 KB
+  Modified: 10/31/2025 22:23:14
+C:\exosatitraderpy\regime_ensemble_integrationpy
+  Size: 5.73 KB
+  Modified: 10/31/2025 22:19:31
+C:\exosatitraderpy\reinforcement_learningpy
+  Size: 11.2 KB
+  Modified: 10/31/2025 22:32:05
+C:\exosatitraderpy\requirementstxt
+  Size: 0.22 KB
+  Modified: 10/31/2025 22:32:06
+C:\exosatitraderpy\rl_analytics_dashboardpy
+  Size: 7.78 KB
+  Modified: 10/31/2025 22:32:06
+C:\exosatitraderpy\rl_enhanced_systempy
+  Size: 9.11 KB
+  Modified: 10/31/2025 22:32:05
+C:\exosatitraderpy\run_high_volume_optimizationbat
+  Size: 0.7 KB
+  Modified: 10/31/2025 23:56:04
+C:\exosatitraderpy\run_parameter_optimizationbat
+  Size: 0.67 KB
+  Modified: 10/31/2025 23:44:30
+C:\exosatitraderpy\run_weekend_backtestingbat
+  Size: 0.68 KB
+  Modified: 10/31/2025 23:04:22
+C:\exosatitraderpy\scripts\__init__py
+  Size: 0 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\scripts\Preset-L1ps1
+  Size: 0.38 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\scripts\run_dashboardpy
+  Size: 0.06 KB
+  Modified: 10/31/2025 18:24:39
+C:\exosatitraderpy\service_health_monitorpy
+  Size: 8.27 KB
+  Modified: 10/31/2025 19:22:08
+C:\exosatitraderpy\simple_dependency_analyzerpy
+  Size: 5.67 KB
+  Modified: 11/01/2025 20:45:37
+C:\exosatitraderpy\simple_regime_detectorpy
+  Size: 1.74 KB
+  Modified: 10/31/2025 22:17:12
+C:\exosatitraderpy\simple_testpy
+  Size: 1.75 KB
+  Modified: 10/31/2025 19:35:42
+C:\exosatitraderpy\start_enhanced_dashboardbat
+  Size: 0.42 KB
+  Modified: 10/31/2025 23:13:24
+C:\exosatitraderpy\start_ftmobat
+  Size: 0.58 KB
+  Modified: 10/31/2025 20:17:17
+C:\exosatitraderpy\start_gui_enhancedbat
+  Size: 0.57 KB
+  Modified: 10/31/2025 21:31:26
+C:\exosatitraderpy\start_guibat
+  Size: 0.08 KB
+  Modified: 10/31/2025 20:17:17
+C:\exosatitraderpy\start_regime_dashboardbat
+  Size: 0.14 KB
+  Modified: 10/31/2025 22:20:25
+C:\exosatitraderpy\start_rl_dashboardbat
+  Size: 0.14 KB
+  Modified: 10/31/2025 22:32:06
+C:\exosatitraderpy\start_tradingbat
+  Size: 0.84 KB
+  Modified: 10/31/2025 19:40:19
+C:\exosatitraderpy\start_tradingpy
+  Size: 1.31 KB
+  Modified: 10/31/2025 19:31:24
+C:\exosatitraderpy\start_ultimate_dashboardbat
+  Size: 0.37 KB
+  Modified: 10/31/2025 22:58:39
+C:\exosatitraderpy\strategy_orchestratorpy
+  Size: 4.55 KB
+  Modified: 10/31/2025 20:01:01
+C:\exosatitraderpy\system_dependency_analyzerpy
+  Size: 9.17 KB
+  Modified: 11/01/2025 20:42:52
+C:\exosatitraderpy\test_backtestingpy
+  Size: 1.41 KB
+  Modified: 10/31/2025 23:07:30
+C:\exosatitraderpy\test_complete_systempy
+  Size: 1.94 KB
+  Modified: 10/31/2025 22:19:31
+C:\exosatitraderpy\test_enhanced_dashboardpy
+  Size: 1.08 KB
+  Modified: 10/31/2025 23:13:25
+C:\exosatitraderpy\test_final_systempy
+  Size: 0.83 KB
+  Modified: 10/31/2025 22:55:32
+C:\exosatitraderpy\test_fixed_backtesterpy
+  Size: 1.11 KB
+  Modified: 10/31/2025 23:22:45
+C:\exosatitraderpy\test_improved_backtesterpy
+  Size: 1.23 KB
+  Modified: 10/31/2025 23:18:31
+C:\exosatitraderpy\test_mt5_connectionpy
+  Size: 0.74 KB
+  Modified: 10/31/2025 22:54:21
+C:\exosatitraderpy\test_optimizationpy
+  Size: 1.2 KB
+  Modified: 10/31/2025 23:44:30
+C:\exosatitraderpy\test_optimized_rlpy
+  Size: 0.3 KB
+  Modified: 10/31/2025 22:39:57
+C:\exosatitraderpy\test_real_time_systempy
+  Size: 0.69 KB
+  Modified: 10/31/2025 22:49:54
+C:\exosatitraderpy\test_regime_detectionpy
+  Size: 0.86 KB
+  Modified: 10/31/2025 22:16:52
+C:\exosatitraderpy\test_rl_systempy
+  Size: 0.68 KB
+  Modified: 10/31/2025 22:32:06
+C:\exosatitraderpy\test_simple_systempy
+  Size: 4.96 KB
+  Modified: 10/31/2025 22:25:31
+C:\exosatitraderpy\test_ultimate_dashboardpy
+  Size: 1.18 KB
+  Modified: 10/31/2025 22:58:40
+C:\exosatitraderpy\test_working_backtesterpy
+  Size: 0.74 KB
+  Modified: 10/31/2025 23:26:35
+C:\exosatitraderpy\timeframe_analysis_20251101_190516txt
+  Size: 0.5 KB
+  Modified: 11/01/2025 19:05:16
+C:\exosatitraderpy\trained_models\trained_ensemblepkl
+  Size: 0.08 KB
+  Modified: 11/01/2025 00:15:48
+C:\exosatitraderpy\trained_models\trained_regime_detectorpkl
+  Size: 3.52 KB
+  Modified: 11/01/2025 00:15:48
+C:\exosatitraderpy\ultimate_trading_dashboardpy
+  Size: 16.45 KB
+  Modified: 10/31/2025 22:58:39
+C:\exosatitraderpy\verify_phase1py
+  Size: 0.96 KB
+  Modified: 10/31/2025 19:22:08
+C:\exosatitraderpy\weekend_backtesterpy
+  Size: 14.73 KB
+  Modified: 10/31/2025 23:07:29
+C:\exosatitraderpy\working_backtesterpy
+  Size: 12.28 KB
+  Modified: 10/31/2025 23:26:35
+C:\exosatitraderpy\working_startpy
+  Size: 1.28 KB
+  Modified: 10/31/2025 19:35:42
+PYTHON DEPENDENCY ANALYSIS
+==========================
+
+📄 __init__.py
+Location: C:\exosatitraderpy\scripts\__init__.py
+Imports: None
+
+📄 advanced_backtester.py
+Location: C:\exosatitraderpy\advanced_backtester.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 logging
+  📦 datetime
+  📦 typing
+  📦 warnings
+  📦 dataclasses
+  📦 enum
+  📦 json
+
+📄 advanced_features.py
+Location: C:\exosatitraderpy\models\ensemble\advanced_features.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 logging
+
+📄 advanced_port_manager.py
+Location: C:\exosatitraderpy\advanced_port_manager.py
+Imports:
+  📦 psutil
+  📦 os
+  📦 signal
+  📦 socket
+  📦 time
+  🔗 ftmo_config_complete
+
+📄 advanced_risk_management.py
+Location: C:\exosatitraderpy\advanced_risk_management.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 logging
+  📦 typing
+  📦 datetime
+  📦 scipy.stats
+  📦 math
+
+📄 advanced_risk_protection.py
+Location: C:\exosatitraderpy\advanced_risk_protection.py
+Imports:
+  📦 numpy
+  📦 datetime
+  📦 logging
+
+📄 automated_reporter.py
+Location: C:\exosatitraderpy\automated_reporter.py
+Imports:
+  📦 smtplib
+  📦 email.mime.text
+  📦 email.mime.multipart
+  📦 json
+  📦 logging
+  📦 datetime
+  📦 pandas
+
+📄 challenge_start.py
+Location: C:\exosatitraderpy\challenge_start.py
+Imports:
+  📦 sys
+  📦 logging
+  🔗 ftmo_challenge_ready
+  📦 time
+
+📄 check_ftmo_complete.py
+Location: C:\exosatitraderpy\check_ftmo_complete.py
+Imports:
+  📦 os
+  📦 sys
+  🔗 ftmo_phase2_system
+  🔗 ftmo_phase3_system
+
+📄 check_integration.py
+Location: C:\exosatitraderpy\check_integration.py
+Imports:
+  📦 os
+  📦 subprocess
+  📦 sys
+  📦 zmq
+  📦 xgboost
+  📦 psutil
+
+📄 check_phase2.py
+Location: C:\exosatitraderpy\check_phase2.py
+Imports:
+  📦 os
+  📦 sys
+  🔗 enhanced_risk_manager
+  🔗 drawdown_protection
+  🔗 ftmo_phase2_system
+
+📄 comprehensive_symbol_analyzer.py
+Location: C:\exosatitraderpy\comprehensive_symbol_analyzer.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 warnings
+
+📄 comprehensive_symbol_analyzer_final.py
+Location: C:\exosatitraderpy\comprehensive_symbol_analyzer_final.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 warnings
+
+📄 comprehensive_test.py
+Location: C:\exosatitraderpy\comprehensive_test.py
+Imports:
+  📦 os
+  📦 importlib
+  📦 sys
+  🔗 ftmo_simplified
+  🔗 advanced_port_manager
+  🔗 ftmo_challenge_optimizer
+
+📄 deep_learning_analyzer.py
+Location: C:\exosatitraderpy\deep_learning_analyzer.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 logging
+  📦 datetime
+  📦 typing
+  📦 warnings
+  📦 tensorflow
+  📦 tensorflow.keras.models
+  📦 tensorflow.keras.layers
+  📦 tensorflow.keras.optimizers
+  📦 torch
+  📦 torch.nn
+
+📄 drawdown_protection.py
+Location: C:\exosatitraderpy\drawdown_protection.py
+Imports:
+  📦 numpy
+  📦 datetime
+  📦 logging
+
+📄 dynamic_timeframe_optimizer.py
+Location: C:\exosatitraderpy\dynamic_timeframe_optimizer.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 itertools
+  📦 sys
+  📦 os
+
+📄 enhanced_gui_integration.py
+Location: C:\exosatitraderpy\enhanced_gui_integration.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 sys
+  📦 os
+  📦 models.ensemble.ensemble_gui_integration
+  📦 models.ensemble.ensemble_gui_integration
+
+📄 enhanced_mt5_integration.py
+Location: C:\exosatitraderpy\enhanced_mt5_integration.py
+Imports:
+  📦 MetaTrader5
+  📦 time
+  📦 logging
+  📦 datetime
+  📦 threading
+  📦 queue
+
+📄 enhanced_risk_manager.py
+Location: C:\exosatitraderpy\enhanced_risk_manager.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 datetime
+  📦 logging
+  🔗 ftmo_config_complete
+
+📄 enhanced_trading_dashboard.py
+Location: C:\exosatitraderpy\enhanced_trading_dashboard.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 matplotlib.pyplot
+  📦 matplotlib.backends.backend_tkagg
+  📦 pandas
+  📦 numpy
+  🔗 real_time_trading_system
+  🔗 working_backtester
+  📦 threading
+  📦 time
+  📦 os
+
+📄 ensemble_ai.py
+Location: C:\exosatitraderpy\models\ensemble\ensemble_ai.py
+Imports:
+  📦 logging
+
+📄 ensemble_gui_integration.py
+Location: C:\exosatitraderpy\models\ensemble\ensemble_gui_integration.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 json
+  📦 datetime
+
+📄 features.py
+Location: C:\exosatitraderpy\data\features.py
+Imports:
+  📦 __future__
+  📦 dataclasses
+  📦 typing
+  📦 math
+  📦 pandas
+  📦 numpy
+
+📄 final_check.py
+Location: C:\exosatitraderpy\final_check.py
+Imports:
+  📦 os
+  📦 sys
+  🔗 strategy_orchestrator
+  🔗 ftmo_challenge_logger
+  🔗 ftmo_integrated_system
+
+📄 final_verification.py
+Location: C:\exosatitraderpy\final_verification.py
+Imports:
+  📦 os
+  📦 sys
+  📦 importlib
+  📦 pathlib
+  🔗 ftmo_config
+  🔗 enhanced_trading_dashboard
+
+📄 final_verify.py
+Location: C:\exosatitraderpy\final_verify.py
+Imports:
+  📦 os
+  📦 sys
+  🔗 ftmo_minimal
+
+📄 fixed_backtester.py
+Location: C:\exosatitraderpy\fixed_backtester.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  🔗 market_regime_detector
+
+📄 fixed_dynamic_optimizer.py
+Location: C:\exosatitraderpy\fixed_dynamic_optimizer.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 itertools
+  📦 sys
+  📦 os
+
+📄 ftmo_challenge_logger.py
+Location: C:\exosatitraderpy\ftmo_challenge_logger.py
+Imports:
+  📦 json
+  📦 logging
+  📦 pandas
+  📦 datetime
+  📦 zmq
+  📦 threading
+  📦 time
+
+📄 ftmo_challenge_optimizer.py
+Location: C:\exosatitraderpy\ftmo_challenge_optimizer.py
+Imports:
+  📦 numpy
+  📦 datetime
+  📦 logging
+
+📄 ftmo_challenge_ready.py
+Location: C:\exosatitraderpy\ftmo_challenge_ready.py
+Imports:
+  🔗 ftmo_challenge_optimizer
+  🔗 advanced_risk_protection
+  🔗 performance_analytics
+  🔗 ftmo_phase3_system
+  📦 logging
+
+📄 ftmo_config.py
+Location: C:\exosatitraderpy\ftmo_config.py
+Imports:
+  📦 os
+
+📄 ftmo_config_complete.py
+Location: C:\exosatitraderpy\ftmo_config_complete.py
+Imports: None
+
+📄 ftmo_final.py
+Location: C:\exosatitraderpy\ftmo_final.py
+Imports:
+  📦 sys
+  📦 logging
+  🔗 ftmo_simplified
+
+📄 ftmo_final_start.py
+Location: C:\exosatitraderpy\ftmo_final_start.py
+Imports:
+  📦 sys
+  📦 time
+  📦 logging
+  🔗 ftmo_integrated_system
+
+📄 ftmo_gui.py
+Location: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_gui.py
+Imports:
+  📦 sys
+  📦 threading
+  📦 time
+  📦 datetime
+  📦 PyQt5.QtWidgets
+  📦 PyQt5.QtCore
+  📦 PyQt5.QtGui
+  🔗 ftmo_minimal
+
+📄 ftmo_gui_enhanced.py
+Location: C:\exosatitraderpy\ftmo_gui_enhanced.py
+Imports:
+  📦 threading
+  📦 time
+  📦 datetime
+  🔗 ftmo_minimal
+  📦 random
+
+📄 ftmo_gui_start.py
+Location: C:\exosatitraderpy\ftmo_gui_start.py
+Imports:
+  📦 sys
+  📦 os
+  📦 PyQt5.QtWidgets
+  📦 PyQt5.QtWidgets
+  🔗 ftmo_minimal
+  🔗 ftmo_gui
+  🔗 ftmo_minimal
+
+📄 ftmo_integrated_system.py
+Location: C:\exosatitraderpy\ftmo_integrated_system.py
+Imports:
+  📦 zmq
+  📦 json
+  📦 logging
+  📦 time
+  📦 datetime
+  🔗 strategy_orchestrator
+  🔗 probability_calibrator
+  🔗 model_loader
+  🔗 ftmo_challenge_logger
+  🔗 service_health_monitor
+  🔗 ftmo_config
+
+📄 ftmo_launch.py
+Location: C:\exosatitraderpy\ftmo_launch.py
+Imports:
+  📦 sys
+  📦 time
+  🔗 ftmo_minimal
+
+📄 ftmo_minimal.py
+Location: C:\exosatitraderpy\ftmo_minimal.py
+Imports:
+  🔗 ftmo_phase2_system
+  🔗 advanced_port_manager
+  📦 logging
+  📦 sys
+
+📄 ftmo_mt5_integration.py
+Location: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_mt5_integration.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 time
+  🔗 strategy_orchestrator
+  🔗 ftmo_challenge_logger
+
+📄 ftmo_phase2_system.py
+Location: C:\exosatitraderpy\ftmo_phase2_system.py
+Imports:
+  🔗 enhanced_risk_manager
+  🔗 drawdown_protection
+  🔗 performance_optimizer
+  🔗 ftmo_rule_enforcer
+  🔗 ftmo_mt5_integration
+  📦 logging
+  📦 time
+
+📄 ftmo_phase3_system.py
+Location: C:\exosatitraderpy\ftmo_phase3_system.py
+Imports:
+  🔗 live_deployment_manager
+  🔗 performance_monitor
+  🔗 automated_reporter
+  🔗 ftmo_phase2_system
+  📦 logging
+  📦 time
+  📦 threading
+
+📄 ftmo_project_upgrader.py
+Location: C:\exosatitraderpy\ftmo_project_upgrader.py
+Imports:
+  📦 os
+  📦 re
+  📦 shutil
+  📦 datetime
+  📦 pathlib
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+
+📄 ftmo_rule_enforcer.py
+Location: C:\exosatitraderpy\ftmo_rule_enforcer.py
+Imports:
+  📦 time
+  📦 datetime
+  📦 logging
+
+📄 ftmo_simplified.py
+Location: C:\exosatitraderpy\ftmo_simplified.py
+Imports:
+  🔗 ftmo_phase2_system
+  🔗 ftmo_challenge_optimizer
+  🔗 advanced_risk_protection
+  🔗 performance_analytics
+  📦 logging
+  🔗 advanced_port_manager
+
+📄 ftmo_start.py
+Location: C:\exosatitraderpy\ftmo_start.py
+Imports:
+  📦 sys
+  📦 time
+  📦 logging
+  🔗 port_manager
+  🔗 ftmo_integrated_system
+
+📄 ftmo_tkinter_gui.py
+Location: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_tkinter_gui.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 threading
+  📦 time
+  📦 datetime
+  🔗 ftmo_minimal
+  📦 random
+
+📄 ftmo_tkinter_gui_enhanced.py
+Location: C:\exosatitraderpy\ftmo_tkinter_gui_enhanced.py
+Imports: None
+
+📄 ftmo_trade.py
+Location: C:\exosatitraderpy\ftmo_trade.py
+Imports:
+  📦 sys
+  📦 time
+  📦 logging
+  🔗 ftmo_mt5_integration
+  🔗 ftmo_mt5_integration
+
+📄 ftmo_universal_gui.py
+Location: C:\exosatitraderpy\ftmo_universal_gui.py
+Imports:
+  📦 sys
+  📦 os
+  📦 PyQt5.QtWidgets
+  🔗 ftmo_gui
+  🔗 ftmo_tkinter_gui
+  📦 subprocess
+  🔗 ftmo_minimal
+
+📄 high_volume_optimizer.py
+Location: C:\exosatitraderpy\high_volume_optimizer.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  📦 itertools
+  📦 time
+  📦 sklearn.ensemble
+
+📄 improved_backtester.py
+Location: C:\exosatitraderpy\improved_backtester.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  📦 models.ensemble.professional_ensemble
+  🔗 market_regime_detector
+
+📄 integrate_complete_system.py
+Location: C:\exosatitraderpy\integrate_complete_system.py
+Imports:
+  📦 sys
+  📦 time
+  🔗 regime_ensemble_integration
+  🔗 advanced_risk_management
+  🔗 enhanced_mt5_integration
+  🔗 live_performance_optimizer
+
+📄 integrate_ensemble.py
+Location: C:\exosatitraderpy\integrate_ensemble.py
+Imports:
+  📦 models.ensemble.ensemble_ai
+
+📄 integrate_professional_ensemble.py
+Location: C:\exosatitraderpy\integrate_professional_ensemble.py
+Imports:
+  📦 sys
+  📦 os
+  📦 models.ensemble.professional_ensemble
+  📦 models.ensemble.ensemble_performance_tracker
+  📦 models.ensemble.ensemble_ai
+
+📄 live_deployment_manager.py
+Location: C:\exosatitraderpy\live_deployment_manager.py
+Imports:
+  📦 os
+  📦 json
+  📦 time
+  📦 logging
+  📦 datetime
+  🔗 ftmo_phase2_system
+
+📄 live_performance_optimizer.py
+Location: C:\exosatitraderpy\live_performance_optimizer.py
+Imports:
+  📦 time
+  📦 logging
+  📦 json
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 threading
+  📦 matplotlib.pyplot
+  📦 io
+  📦 base64
+
+📄 make_us30.py
+Location: C:\exosatitraderpy\data\make_us30.py
+Imports:
+  📦 __future__
+  📦 csv
+  📦 datetime
+
+📄 market_regime_detector.py
+Location: C:\exosatitraderpy\market_regime_detector.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 hmmlearn.hmm
+  📦 sklearn.preprocessing
+  📦 warnings
+
+📄 model_loader.py
+Location: C:\exosatitraderpy\model_loader.py
+Imports:
+  📦 pickle
+  📦 os
+  📦 models.ensemble.professional_ensemble
+  🔗 market_regime_detector
+
+📄 mt5_adapter.py
+Location: C:\exosatitraderpy\data\mt5_adapter.py
+Imports:
+  📦 logging
+
+📄 multi_timeframe_backtester.py
+Location: C:\exosatitraderpy\multi_timeframe_backtester.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 sklearn.ensemble
+  📦 sklearn.model_selection
+  📦 sklearn.metrics
+  📦 warnings
+
+📄 oanda_symbol_discoverer.py
+Location: C:\exosatitraderpy\oanda_symbol_discoverer.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 MetaTrader5
+  📦 warnings
+
+📄 optimization_backtester.py
+Location: C:\exosatitraderpy\optimization_backtester.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  📦 itertools
+  📦 time
+  📦 sklearn.ensemble
+
+📄 optimized_rl_system.py
+Location: C:\exosatitraderpy\optimized_rl_system.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 random
+  📦 collections
+  📦 warnings
+  🔗 market_regime_detector
+
+📄 performance_analytics.py
+Location: C:\exosatitraderpy\performance_analytics.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 logging
+
+📄 performance_monitor.py
+Location: C:\exosatitraderpy\performance_monitor.py
+Imports:
+  📦 time
+  📦 json
+  📦 logging
+  📦 datetime
+  📦 matplotlib.pyplot
+  📦 pandas
+  📦 threading
+
+📄 performance_optimizer.py
+Location: C:\exosatitraderpy\performance_optimizer.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 datetime
+  📦 logging
+  📦 scipy.optimize
+
+📄 phase2_demo.py
+Location: C:\exosatitraderpy\phase2_demo.py
+Imports:
+  📦 time
+  📦 random
+  📦 datetime
+  🔗 ftmo_phase2_system
+  📦 logging
+
+📄 phase2_start.py
+Location: C:\exosatitraderpy\phase2_start.py
+Imports:
+  📦 sys
+  🔗 ftmo_phase2_system
+  📦 time
+
+📄 phase3_start.py
+Location: C:\exosatitraderpy\phase3_start.py
+Imports:
+  📦 sys
+  📦 logging
+  🔗 ftmo_phase2_system
+
+📄 port_manager.py
+Location: C:\exosatitraderpy\port_manager.py
+Imports:
+  📦 psutil
+  📦 os
+  📦 signal
+  🔗 ftmo_config
+  📦 socket
+
+📄 probability_calibrator.py
+Location: C:\exosatitraderpy\probability_calibrator.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 sklearn.calibration
+  📦 joblib
+  📦 logging
+  📦 collections
+  📦 threading
+  📦 time
+
+📄 professional_ensemble.py
+Location: C:\exosatitraderpy\models\ensemble\professional_ensemble.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 logging
+  📦 joblib
+  📦 datetime
+  📦 typing
+  📦 collections
+  📦 .advanced_features
+  📦 xgboost
+  📦 lightgbm
+  📦 sklearn.ensemble
+  📦 json
+
+📄 quick_gui_test.py
+Location: C:\exosatitraderpy\quick_gui_test.py
+Imports: None
+
+📄 quick_verify.py
+Location: C:\exosatitraderpy\quick_verify.py
+Imports:
+  🔗 market_regime_detector
+  📦 pandas
+  📦 numpy
+  🔗 market_regime_detector
+
+📄 real_time_mt5_integration.py
+Location: C:\exosatitraderpy\real_time_mt5_integration.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 time
+
+📄 real_time_trading_system.py
+Location: C:\exosatitraderpy\real_time_trading_system.py
+Imports:
+  📦 pandas
+  📦 numpy
+  📦 MetaTrader5
+  🔗 real_time_mt5_integration
+  🔗 market_regime_detector
+  🔗 reinforcement_learning
+
+📄 regime_analytics_dashboard.py
+Location: C:\exosatitraderpy\regime_analytics_dashboard.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 matplotlib.pyplot
+  📦 matplotlib.backends.backend_tkagg
+  📦 pandas
+  📦 numpy
+  🔗 market_regime_detector
+
+📄 regime_ensemble_integration.py
+Location: C:\exosatitraderpy\regime_ensemble_integration.py
+Imports:
+  📦 pandas
+  📦 numpy
+  🔗 market_regime_detector
+
+📄 reinforcement_learning.py
+Location: C:\exosatitraderpy\reinforcement_learning.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 random
+  📦 collections
+  📦 warnings
+  📦 pickle
+  📦 pickle
+
+📄 rl_analytics_dashboard.py
+Location: C:\exosatitraderpy\rl_analytics_dashboard.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 matplotlib.pyplot
+  📦 matplotlib.backends.backend_tkagg
+  📦 numpy
+  🔗 rl_enhanced_system
+
+📄 rl_enhanced_system.py
+Location: C:\exosatitraderpy\rl_enhanced_system.py
+Imports:
+  📦 pandas
+  📦 numpy
+  🔗 reinforcement_learning
+  🔗 market_regime_detector
+
+📄 run_dashboard.py
+Location: C:\exosatitraderpy\scripts\run_dashboard.py
+Imports:
+  📦 exosati_trader.gui.qt_dashboard
+
+📄 service_health_monitor.py
+Location: C:\exosatitraderpy\service_health_monitor.py
+Imports:
+  📦 psutil
+  📦 time
+  📦 logging
+  📦 zmq
+  📦 json
+  📦 threading
+  📦 datetime
+
+📄 simple_dependency_analyzer.py
+Location: C:\exosatitraderpy\simple_dependency_analyzer.py
+Imports:
+  📦 os
+  📦 re
+  📦 pathlib
+
+📄 simple_ensemble.py
+Location: C:\exosatitraderpy\models\ensemble\simple_ensemble.py
+Imports:
+  📦 numpy
+  📦 sklearn.ensemble
+  📦 xgboost
+  📦 lightgbm
+
+📄 simple_regime_detector.py
+Location: C:\exosatitraderpy\simple_regime_detector.py
+Imports:
+  📦 numpy
+  📦 pandas
+  📦 hmmlearn.hmm
+  📦 sklearn.preprocessing
+
+📄 simple_test.py
+Location: C:\exosatitraderpy\simple_test.py
+Imports:
+  📦 time
+  📦 sys
+  🔗 strategy_orchestrator
+  🔗 ftmo_challenge_logger
+
+📄 simulator.py
+Location: C:\exosatitraderpy\data\simulator.py
+Imports:
+  📦 logging
+
+📄 start_trading.py
+Location: C:\exosatitraderpy\backup_ai_20251031_212252\start_trading.py
+Imports:
+  📦 sys
+  📦 time
+  🔗 ftmo_integrated_system
+
+📄 strategy_orchestrator.py
+Location: C:\exosatitraderpy\strategy_orchestrator.py
+Imports:
+  📦 zmq
+  📦 json
+  📦 logging
+  📦 time
+  📦 datetime
+  📦 threading
+
+📄 system_dependency_analyzer.py
+Location: C:\exosatitraderpy\system_dependency_analyzer.py
+Imports:
+  📦 ast
+  📦 os
+  📦 sys
+  📦 pathlib
+
+📄 test_backtesting.py
+Location: C:\exosatitraderpy\test_backtesting.py
+Imports:
+  🔗 weekend_backtester
+
+📄 test_complete_system.py
+Location: C:\exosatitraderpy\test_complete_system.py
+Imports:
+  🔗 market_regime_detector
+  🔗 regime_ensemble_integration
+  📦 pandas
+  📦 numpy
+
+📄 test_enhanced_dashboard.py
+Location: C:\exosatitraderpy\test_enhanced_dashboard.py
+Imports:
+  🔗 enhanced_trading_dashboard
+  🔗 weekend_backtester
+
+📄 test_final_system.py
+Location: C:\exosatitraderpy\test_final_system.py
+Imports:
+  🔗 real_time_trading_system
+
+📄 test_fixed_backtester.py
+Location: C:\exosatitraderpy\test_fixed_backtester.py
+Imports:
+  🔗 fixed_backtester
+
+📄 test_improved_backtester.py
+Location: C:\exosatitraderpy\test_improved_backtester.py
+Imports:
+  🔗 improved_backtester
+
+📄 test_mt5_connection.py
+Location: C:\exosatitraderpy\test_mt5_connection.py
+Imports:
+  🔗 real_time_mt5_integration
+
+📄 test_optimization.py
+Location: C:\exosatitraderpy\test_optimization.py
+Imports:
+  🔗 optimization_backtester
+
+📄 test_optimized_rl.py
+Location: C:\exosatitraderpy\test_optimized_rl.py
+Imports:
+  🔗 optimized_rl_system
+  📦 traceback
+
+📄 test_real_time_system.py
+Location: C:\exosatitraderpy\test_real_time_system.py
+Imports:
+  🔗 real_time_trading_system
+  📦 traceback
+
+📄 test_regime_detection.py
+Location: C:\exosatitraderpy\test_regime_detection.py
+Imports:
+  🔗 market_regime_detector
+  📦 pandas
+  📦 numpy
+
+📄 test_rl_system.py
+Location: C:\exosatitraderpy\test_rl_system.py
+Imports:
+  🔗 rl_enhanced_system
+
+📄 test_simple_system.py
+Location: C:\exosatitraderpy\test_simple_system.py
+Imports:
+  🔗 market_regime_detector
+  📦 pandas
+  📦 numpy
+
+📄 test_ultimate_dashboard.py
+Location: C:\exosatitraderpy\test_ultimate_dashboard.py
+Imports:
+  🔗 ultimate_trading_dashboard
+  🔗 real_time_trading_system
+  🔗 market_regime_detector
+
+📄 test_working_backtester.py
+Location: C:\exosatitraderpy\test_working_backtester.py
+Imports:
+  🔗 working_backtester
+
+📄 ultimate_trading_dashboard.py
+Location: C:\exosatitraderpy\ultimate_trading_dashboard.py
+Imports:
+  📦 tkinter
+  📦 tkinter
+  📦 matplotlib.pyplot
+  📦 matplotlib.backends.backend_tkagg
+  📦 pandas
+  📦 numpy
+  🔗 real_time_trading_system
+  🔗 market_regime_detector
+  📦 threading
+  📦 time
+
+📄 verify_phase1.py
+Location: C:\exosatitraderpy\verify_phase1.py
+Imports:
+  📦 os
+  📦 sys
+
+📄 weekend_backtester.py
+Location: C:\exosatitraderpy\weekend_backtester.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  📦 models.ensemble.professional_ensemble
+  🔗 market_regime_detector
+
+📄 working_backtester.py
+Location: C:\exosatitraderpy\working_backtester.py
+Imports:
+  📦 MetaTrader5
+  📦 pandas
+  📦 numpy
+  📦 datetime
+  📦 pickle
+  📦 os
+  📦 warnings
+  🔗 market_regime_detector
+
+📄 working_start.py
+Location: C:\exosatitraderpy\working_start.py
+Imports:
+  🔗 strategy_orchestrator
+  🔗 ftmo_challenge_logger
+
+📄 xgb_trainer.py
+Location: C:\exosatitraderpy\models\xgb_trainer.py
+Imports:
+  📦 __future__
+  📦 argparse
+  📦 json
+  📦 os
+  📦 time
+  📦 dataclasses
+  📦 pathlib
+  📦 typing
+  📦 numpy
+  📦 pandas
+  📦 sklearn.metrics
+  📦 sklearn.model_selection
+  📦 xgboost
+  📦 exosati_trader.features.common_features
+MAIN ENTRY POINTS
+=================
+🎯 advanced_port_manager.py
+  Path: C:\exosatitraderpy\advanced_port_manager.py
+🎯 challenge_start.py
+  Path: C:\exosatitraderpy\challenge_start.py
+🎯 check_ftmo_complete.py
+  Path: C:\exosatitraderpy\check_ftmo_complete.py
+🎯 check_integration.py
+  Path: C:\exosatitraderpy\check_integration.py
+🎯 check_phase2.py
+  Path: C:\exosatitraderpy\check_phase2.py
+🎯 comprehensive_symbol_analyzer.py
+  Path: C:\exosatitraderpy\comprehensive_symbol_analyzer.py
+🎯 comprehensive_symbol_analyzer_final.py
+  Path: C:\exosatitraderpy\comprehensive_symbol_analyzer_final.py
+🎯 comprehensive_test.py
+  Path: C:\exosatitraderpy\comprehensive_test.py
+🎯 dynamic_timeframe_optimizer.py
+  Path: C:\exosatitraderpy\dynamic_timeframe_optimizer.py
+🎯 enhanced_gui_integration.py
+  Path: C:\exosatitraderpy\enhanced_gui_integration.py
+🎯 enhanced_trading_dashboard.py
+  Path: C:\exosatitraderpy\enhanced_trading_dashboard.py
+🎯 final_check.py
+  Path: C:\exosatitraderpy\final_check.py
+🎯 final_verification.py
+  Path: C:\exosatitraderpy\final_verification.py
+🎯 final_verify.py
+  Path: C:\exosatitraderpy\final_verify.py
+🎯 fixed_backtester.py
+  Path: C:\exosatitraderpy\fixed_backtester.py
+🎯 fixed_dynamic_optimizer.py
+  Path: C:\exosatitraderpy\fixed_dynamic_optimizer.py
+🎯 ftmo_challenge_ready.py
+  Path: C:\exosatitraderpy\ftmo_challenge_ready.py
+🎯 ftmo_final.py
+  Path: C:\exosatitraderpy\ftmo_final.py
+🎯 ftmo_final_start.py
+  Path: C:\exosatitraderpy\ftmo_final_start.py
+🎯 ftmo_gui.py
+  Path: C:\exosatitraderpy\ftmo_gui.py
+🎯 ftmo_gui_enhanced.py
+  Path: C:\exosatitraderpy\ftmo_gui_enhanced.py
+🎯 ftmo_gui_start.py
+  Path: C:\exosatitraderpy\ftmo_gui_start.py
+🎯 ftmo_integrated_system.py
+  Path: C:\exosatitraderpy\ftmo_integrated_system.py
+🎯 ftmo_launch.py
+  Path: C:\exosatitraderpy\ftmo_launch.py
+🎯 ftmo_minimal.py
+  Path: C:\exosatitraderpy\ftmo_minimal.py
+🎯 ftmo_mt5_integration.py
+  Path: C:\exosatitraderpy\ftmo_mt5_integration.py
+🎯 ftmo_phase2_system.py
+  Path: C:\exosatitraderpy\ftmo_phase2_system.py
+🎯 ftmo_phase3_system.py
+  Path: C:\exosatitraderpy\ftmo_phase3_system.py
+🎯 ftmo_project_upgrader.py
+  Path: C:\exosatitraderpy\ftmo_project_upgrader.py
+🎯 ftmo_simplified.py
+  Path: C:\exosatitraderpy\ftmo_simplified.py
+🎯 ftmo_start.py
+  Path: C:\exosatitraderpy\ftmo_start.py
+🎯 ftmo_tkinter_gui.py
+  Path: C:\exosatitraderpy\ftmo_tkinter_gui.py
+🎯 ftmo_trade.py
+  Path: C:\exosatitraderpy\ftmo_trade.py
+🎯 ftmo_universal_gui.py
+  Path: C:\exosatitraderpy\ftmo_universal_gui.py
+🎯 high_volume_optimizer.py
+  Path: C:\exosatitraderpy\high_volume_optimizer.py
+🎯 improved_backtester.py
+  Path: C:\exosatitraderpy\improved_backtester.py
+🎯 integrate_ensemble.py
+  Path: C:\exosatitraderpy\integrate_ensemble.py
+🎯 integrate_professional_ensemble.py
+  Path: C:\exosatitraderpy\integrate_professional_ensemble.py
+🎯 model_loader.py
+  Path: C:\exosatitraderpy\model_loader.py
+🎯 multi_timeframe_backtester.py
+  Path: C:\exosatitraderpy\multi_timeframe_backtester.py
+🎯 oanda_symbol_discoverer.py
+  Path: C:\exosatitraderpy\oanda_symbol_discoverer.py
+🎯 optimization_backtester.py
+  Path: C:\exosatitraderpy\optimization_backtester.py
+🎯 optimized_rl_system.py
+  Path: C:\exosatitraderpy\optimized_rl_system.py
+🎯 phase2_demo.py
+  Path: C:\exosatitraderpy\phase2_demo.py
+🎯 phase2_start.py
+  Path: C:\exosatitraderpy\phase2_start.py
+🎯 phase3_start.py
+  Path: C:\exosatitraderpy\phase3_start.py
+🎯 port_manager.py
+  Path: C:\exosatitraderpy\port_manager.py
+🎯 real_time_mt5_integration.py
+  Path: C:\exosatitraderpy\real_time_mt5_integration.py
+🎯 real_time_trading_system.py
+  Path: C:\exosatitraderpy\real_time_trading_system.py
+🎯 regime_analytics_dashboard.py
+  Path: C:\exosatitraderpy\regime_analytics_dashboard.py
+🎯 rl_analytics_dashboard.py
+  Path: C:\exosatitraderpy\rl_analytics_dashboard.py
+🎯 rl_enhanced_system.py
+  Path: C:\exosatitraderpy\rl_enhanced_system.py
+🎯 simple_dependency_analyzer.py
+  Path: C:\exosatitraderpy\simple_dependency_analyzer.py
+🎯 simple_regime_detector.py
+  Path: C:\exosatitraderpy\simple_regime_detector.py
+🎯 simple_test.py
+  Path: C:\exosatitraderpy\simple_test.py
+🎯 start_trading.py
+  Path: C:\exosatitraderpy\start_trading.py
+🎯 system_dependency_analyzer.py
+  Path: C:\exosatitraderpy\system_dependency_analyzer.py
+🎯 test_complete_system.py
+  Path: C:\exosatitraderpy\test_complete_system.py
+🎯 test_regime_detection.py
+  Path: C:\exosatitraderpy\test_regime_detection.py
+🎯 test_simple_system.py
+  Path: C:\exosatitraderpy\test_simple_system.py
+🎯 ultimate_trading_dashboard.py
+  Path: C:\exosatitraderpy\ultimate_trading_dashboard.py
+🎯 verify_phase1.py
+  Path: C:\exosatitraderpy\verify_phase1.py
+🎯 weekend_backtester.py
+  Path: C:\exosatitraderpy\weekend_backtester.py
+🎯 working_backtester.py
+  Path: C:\exosatitraderpy\working_backtester.py
+🎯 ftmo_gui.py
+  Path: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_gui.py
+🎯 ftmo_mt5_integration.py
+  Path: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_mt5_integration.py
+🎯 ftmo_tkinter_gui.py
+  Path: C:\exosatitraderpy\backup_ai_20251031_212252\ftmo_tkinter_gui.py
+🎯 start_trading.py
+  Path: C:\exosatitraderpy\backup_ai_20251031_212252\start_trading.py
+🎯 xgb_trainer.py
+  Path: C:\exosatitraderpy\backup_ai_20251031_212252\models\xgb_trainer.py
+🎯 xgb_trainer.py
+  Path: C:\exosatitraderpy\models\xgb_trainer.py
+FILES THAT DEPEND ON enhanced_trading_dashboard.py
+==================================================
+📂 test_enhanced_dashboard.py
+📂 final_verification.py

@@ -306,7 +306,7 @@ def demo_real_time_system():
     print("🚀 REAL-TIME FTMO TRADING SYSTEM DEMO")
     print("=" * 60)
     
-    system = RealTimeTradingSystem(symbols=['BTCX25.sim', 'US30Z25.sim', 'XAUZ25.sim', 'US100Z25.sim', 'US500Z25.sim', 'USOILZ25.sim'])
+    system = RealTimeTradingSystem()
     
     if system.initialize_system():
         # Run multiple trading cycles
@@ -331,5 +331,4 @@ def demo_real_time_system():
 
 if __name__ == "__main__":
     demo_real_time_system()
-
 

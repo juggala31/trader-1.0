@@ -322,4 +322,3 @@ def test_working_backtester():
 if __name__ == "__main__":
     test_working_backtester()
 
-
