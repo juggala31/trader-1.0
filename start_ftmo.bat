@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 echo 🚀 FTMO TRADING SYSTEM - ONE CLICK START
 echo ======================================
 echo.

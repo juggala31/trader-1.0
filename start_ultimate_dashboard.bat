@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 echo Starting FTMO AI Trading System - Ultimate Dashboard...
 echo.
 echo 🎯 FEATURES:

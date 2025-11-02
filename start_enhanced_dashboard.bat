@@ -1,21 +1,45 @@
-﻿@echo off
-chcp 65001 > nul
-echo Starting FTMO AI Trading System - OPTIMAL PORTFOLIO EDITION...
-echo.
-echo 🎯 OPTIMAL SYMBOL PORTFOLIO LOADED:
-echo 💰 BTCX25.sim - Bitcoin (1704% historical)
-echo 📈 US30Z25.sim - Dow Jones (206% historical) 
-echo 🔬 US100Z25.sim - Nasdaq 100 (Tech growth)
-echo 🌟 US500Z25.sim - S&P 500 (Broad market)
-echo 🏆 XAUZ25.sim - Gold (Safe haven)
-echo ⚡ USOILZ25.sim - Crude Oil (Commodity)
-echo.
-echo 📊 PORTFOLIO FEATURES:
-echo ✅ 6 symbols across 4 asset classes
-echo ✅ Maximum diversification and risk management
-echo ✅ Comprehensive multi-timeframe optimization
-echo ✅ Ready for live deployment
-echo.
-cd /d "%~dp0"
-python enhanced_trading_dashboard.py
-pause
+@echo off
+setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
+chcp 65001 >NUL
+
+REM Keep window open at the end
+set KEEP_OPEN=1
+
+REM Move to this BAT's folder
+pushd "%~dp0"
+
+REM If this BAT lives in tools\, go up one level to project root
+for %%D in ("%~dp0") do (
+  set "_CUR=%%~nxD"
+)
+if /I "!_CUR!"=="tools\" (
+  cd ..
+)
+
+echo [Launcher] CWD: %CD%
+
+where python >NUL 2>&1
+if errorlevel 1 (
+  echo [ERROR] Python not found in PATH.
+  goto END
+)
+
+if exist "exosati_trader\app\start_all.py" (
+  set "CMD=python -m exosati_trader.app.start_all"
+) else if exist "enhanced_trading_dashboard.py" (
+  set "CMD=python enhanced_trading_dashboard.py"
+) else (
+  echo [ERROR] No launcher target found in %CD%
+  echo         Expect: exosati_trader\app\start_all.py OR enhanced_trading_dashboard.py
+  goto END
+)
+
+echo [INFO] Running: !CMD!
+!CMD!
+set "EXITCODE=!ERRORLEVEL!"
+echo [INFO] Python exited with code !EXITCODE!
+
+:END
+popd
+if defined KEEP_OPEN pause
+exit /b %EXITCODE%

@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 echo ========================================
 echo 🎯 FTMO AI - HIGH-VOLUME OPTIMIZATION
 echo ========================================

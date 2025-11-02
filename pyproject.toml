@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exosati-trader"
+version = "0.5.0"
+description = "Exosati Trader — GUI + services scaffold"
+requires-python = ">=3.10"
+dependencies = [
+  "pyyaml>=6.0.1",
+  "psutil>=5.9.8"
+  # NOTE: Add heavy deps later (pyzmq, xgboost, MetaTrader5, etc.)
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["exosati_trader*"]
+
+[project.scripts]
+exosati-start-all = "exosati_trader.app.start_all:main"
+exosati-gui       = "exosati_trader.app.gui_entry:main"
