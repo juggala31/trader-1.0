@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 class ImprovedBacktester:
     def __init__(self, symbols=None, initial_balance=100000):
-        self.symbols = symbols or ["US30Z25.sim", "US100Z25.sim", "XAUZ25.sim"]
+        self.symbols = symbols or ['BTCX25.sim', 'US30Z25.sim', 'XAUZ25.sim', 'US100Z25.sim', 'US500Z25.sim', 'USOILZ25.sim']
         self.initial_balance = initial_balance
         
         # Try to import your ensemble, or create a simple one
@@ -421,3 +421,4 @@ def run_improved_backtesting():
 
 if __name__ == "__main__":
     run_improved_backtesting()
+

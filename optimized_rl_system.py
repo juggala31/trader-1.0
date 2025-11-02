@@ -128,7 +128,7 @@ class OptimizedTradingQLearning:
 
 class OptimizedRLTradingSystem:
     def __init__(self, symbols=None):
-        self.symbols = symbols or ["US30Z25.sim", "US100Z25.sim", "XAUZ25.sim"]
+        self.symbols = symbols or ['BTCX25.sim', 'US30Z25.sim', 'XAUZ25.sim', 'US100Z25.sim', 'US500Z25.sim', 'USOILZ25.sim']
         from market_regime_detector import MarketRegimeDetector
         self.regime_detector = MarketRegimeDetector()
         self.rl_agent = OptimizedTradingQLearning()
@@ -423,3 +423,4 @@ def demo_optimized_rl():
 
 if __name__ == "__main__":
     demo_optimized_rl()
+
