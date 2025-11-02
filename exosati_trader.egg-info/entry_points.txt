@@ -1,0 +1,3 @@
+[console_scripts]
+exosati-gui = exosati_trader.app.gui_entry:main
+exosati-start-all = exosati_trader.app.start_all:main

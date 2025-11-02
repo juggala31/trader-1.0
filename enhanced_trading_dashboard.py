@@ -1,4 +1,4 @@
-﻿import tkinter as tk
+import tkinter as tk
 from tkinter import ttk, messagebox
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -10,6 +10,45 @@ import threading
 import time
 import os
 
+# === BEGIN: SAFETY PATCH (non-invasive) ===
+# 1) Safe order_send wrapper: prevents 'NoneType' retcode crashes
+try:
+    import MetaTrader5 as _mt5
+    _ex__orig_order_send = getattr(_mt5, "order_send", None)
+    if _ex__orig_order_send and not getattr(_mt5, "_ex_safe_wrapped", False):
+        def _ex__safe_order_send(req):
+            res = _ex__orig_order_send(req)
+            if res is None or not hasattr(res, 'retcode'):
+                class _ExRes:  # minimal object with expected fields
+                    retcode = None
+                    comment = "order_send returned None (connection/params issue)"
+                    request = req
+                return _ExRes()
+            return res
+        _mt5.order_send = _ex__safe_order_send
+        _mt5._ex_safe_wrapped = True
+except Exception:
+    # If MetaTrader5 import fails, do nothing; your existing sim fallback will handle it.
+    pass
+
+# 2) Optional NumPy truthiness helper (unused here; your code already catches/prints)
+try:
+    import numpy as _np
+    def _ex_truthy(x):
+        try:
+            return bool(_np.any(x))
+        except Exception:
+            try:
+                return bool(len(x))
+            except Exception:
+                return bool(x)
+except Exception:
+    def _ex_truthy(x):  # fallback
+        try:
+            return bool(len(x))
+        except Exception:
+            return bool(x)
+# === END: SAFETY PATCH ===
 class EnhancedTradingDashboard:
     def __init__(self, master):
         self.master = master

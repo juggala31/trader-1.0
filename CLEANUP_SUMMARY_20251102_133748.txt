@@ -1,0 +1,20 @@
+CLEANUP SUMMARY  (20251102_133748)
+
+Backup directory:
+  C:\ExosatiTraderPy\_cleanup_backup\Backup_20251102_133748
+
+A zip of the backup was created (see below). You can restore anything from:
+  C:\ExosatiTraderPy\_cleanup_backup\Backup_20251102_133748\Removed
+(relative paths preserved)
+
+Items moved: 3064
+Log of moved items:
+  C:\ExosatiTraderPy\_cleanup_backup\Backup_20251102_133748\Meta\moved_items_20251102_133748.txt
+
+Parameters:
+  ArchiveGit    = False
+  MoveDataCSVs  = True (kept CSVs <= 250KB)
+  MoveModels    = True
+
+Base folders ensured:
+  models\, models\xgb\, models\ensemble\, data\, tools\, scripts\, logs\
